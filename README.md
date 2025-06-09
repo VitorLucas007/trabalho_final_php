@@ -23,6 +23,8 @@ Repositório para o trabalho final da disciplina Programação para Web
 
 ### Diagrama de Casos de Uso
 
+![UseCaseDiagram_prog_web](https://github.com/user-attachments/assets/4c5c0f2f-4ada-47a6-85a9-6dfe03d7cb79)
+
 ## Diagrama de Entidade e Relacionamento
 - O diagrama de entidade e relacionamento tem como objetivo representar um sistema de registro pessoal de medicamentos, onde o próprio paciente pode organizar seus tratamentos e acompanhar quando e como toma seus remédios.
 - Sobre as tabelas do sistema
@@ -37,5 +39,10 @@ Repositório para o trabalho final da disciplina Programação para Web
 
 ### Diagrama de Sequencia 
 
+
+
 ### Diagrama de classes
+
+![ClassDiagram_prog_web](https://github.com/user-attachments/assets/94288c38-665c-4f75-bc19-07588881ec1d)
+
  

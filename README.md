@@ -26,8 +26,7 @@ Repositório para o trabalho final da disciplina Programação para Web
 ![UseCaseDiagram_prog_web](https://github.com/user-attachments/assets/4c5c0f2f-4ada-47a6-85a9-6dfe03d7cb79)
 
 ## Diagrama de Entidade e Relacionamento
-- O diagrama de entidade e relacionamento tem como objetivo representar um sistema de registro pessoal de medicamentos, onde o próprio paciente pode organizar seus tratamentos e acompanhar quando e como toma seus remédios.
-- Sobre as tabelas do sistema
+- Taabelas do sistema
 - Paciente: representa o usuário do sistema. Cada paciente pode criar seus próprios planos de uso e registrar quando toma os medicamentos.
 - Medicamento: aqui ficam armazenadas todas as informações dos remédios, como nome, substância ativa (princípio ativo), forma de uso (ex: comprimido ou xarope), dosagem, fabricante e o tipo de tarja.
 - PlanoUso: funciona como um agrupador de medicamentos que o paciente está usando ou vai usar para um determinado tratamento. Exemplo: “Plano de uso para gripe”.
@@ -39,7 +38,19 @@ Repositório para o trabalho final da disciplina Programação para Web
 
 ### Diagrama de Sequencia 
 
+- Fluxos de sequência a serem realizados pelo usuario 
 
+### Cadastrar
+![SequenceDiagram_cadastrar](https://github.com/user-attachments/assets/c2172a34-d065-4604-99b1-d3a0c5fbfe93)
+
+### Listar
+![SequenceDiagram_listar](https://github.com/user-attachments/assets/e2ae5394-6bd3-413a-b4a4-22b03262c2e3)
+
+### Atualizar
+![SequenceDiagram_update](https://github.com/user-attachments/assets/f62d4df2-13db-49df-9892-43a08cccbeb1)
+
+### Deletar
+![SequenceDiagram_delete](https://github.com/user-attachments/assets/ee1f3c0b-9d18-4893-9859-d124e5359d0f)
 
 ### Diagrama de classes
 

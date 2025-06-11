@@ -31,8 +31,8 @@ Repositório para o trabalho final da disciplina Programação para Web
 - Medicamento: aqui ficam armazenadas todas as informações dos remédios, como nome, substância ativa (princípio ativo), forma de uso (ex: comprimido ou xarope), dosagem, fabricante e o tipo de tarja.
 - PlanoUso: funciona como um agrupador de medicamentos que o paciente está usando ou vai usar para um determinado tratamento. Exemplo: “Plano de uso para gripe”.
 - PlanoUso_Medicamento: é a tabela que liga os medicamentos ao plano de uso. Nela também ficam informações como quantidade, posologia (como tomar) e por quantos dias o medicamento será usado.
-- Administração: registra quando o paciente realmente tomou o remédio, com informações como data, hora, dose e via (ex: oral, injetável). Esse histórico pode ser útil para acompanhamento ou geração de relatórios.
-- Via_administracao: é uma tabela auxiliar que lista todas as formas possíveis de administração (oral, intravenosa, etc), evitando repetição de dados e garantindo mais organização.
+- Administração: registra quando o paciente realmente tomou o remédio, com informações como data, hora, dose e via (ex: oral, injetável). Esse histórico é útil para acompanhamento ou geração de relatórios.
+- Via_administracao: é uma tabela auxiliar que lista todas as formas possíveis de administração (oral, intravenosa, etc), com uma descrição Ex("	Oral — administrado pela boca", "Intravenosa — injeção na veia"), evitando repetição de dados e garantindo mais organização.
   
 ![ERDDiagram_prog_web](https://github.com/user-attachments/assets/09d4aa0f-4ccd-4041-84c5-48497af64653)
 
